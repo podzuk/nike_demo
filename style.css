@@ -1,0 +1,288 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.shop{
+    width: 1000px;
+    height: 600px;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: url(img/bg1.png);
+    background-size: cover;
+    z-index: 1;
+}
+
+.shop__background{
+    width: 1000px;
+    height: 600px;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: url(img/bg2.png);
+    background-size: cover;
+    z-index: 2;
+}
+
+.menu__sub{
+    width: 20px;
+    height: 15px;
+    float: right;
+    margin-top: 30px;
+    margin-right: 70px;
+}
+
+.menu__logo{
+    width: 60px;
+    height: 20px;
+    float: left;
+    margin-top: 30px;
+    margin-left: 100px;
+
+}
+.menu__list{
+    padding-top:25px;
+    margin-left: 300px;
+    list-style-type: none;
+    font-size: 12px;
+    font-family: "Roboto";
+    color: rgb(255, 255, 255);
+    line-height: 2.224;
+}
+.menu__item{
+    
+    display: inline-block;
+    margin-right: 50px;
+
+}
+.menu__item--selected{
+    border-bottom: 1px solid white;
+}
+
+.shop__card_3{
+    background-image: url(img/card_3.png);
+    background-size:cover;
+    position: absolute;
+    width: 1000px;
+    height: 450px;
+    margin-top: 10px;
+    margin-left: 5px;
+    z-index: 3;
+}
+
+.shop__card_2{
+    background-image: url(img/card_2.png);
+    background-size:cover;
+    position: absolute;
+    width: 903px;
+    margin-top: 0px;
+    margin-left: 36px;
+    height: 548px;
+    z-index: 4;
+    opacity: 0.7;
+}
+
+.shop__card_1{
+    background-color: white;
+    background-size:cover;
+    position: absolute;
+    width: 826px;
+    margin-top: 40px;
+    margin-left: 91px;
+    height: 447px;
+    z-index: 5;
+}
+
+.block_sneakers{
+    background-image: url(img/123.png);
+    background-size:cover;
+    width: 64%;
+    height: 100%;
+    opacity: 1;
+    z-index: 6;
+}
+
+.block_sneakers_huarache{
+    background-image: url(img/_Group_.png);
+    position: absolute;
+    width: 434px;
+    height: 62px;
+    top: 90px;
+    left: 55px;
+    z-index:7;
+}
+
+.block_sneakers_icon{
+    background-image: url(img/img_h.png);
+    position: absolute;
+    left: 57px;
+    top: 48px;
+    width: 415px;
+    height: 290px; 
+    z-index:8;
+}
+
+.block_sneakers_plus{
+        background-image: url(img/btn_add.png);
+        position: absolute;
+        left: 480px;
+        top: 350px;
+        width: 21px;
+        height: 21px;
+        z-index: 9;     
+}
+
+
+.block_sneakers_foto{
+    display: inline-block;
+    width: 46px;
+    height: 46px;
+    margin-top: 380px;
+    margin-left: 20px;
+    z-index: 10;
+}
+
+.block_sneakers_foto--center{
+    margin-left: 180px;
+}
+
+
+.block_description{
+float: right;
+width: 36%;
+height: 100%;
+margin-top: -437px;
+}
+
+.block_description_close{
+display: inline;
+position: absolute;
+right: 10px;
+}
+
+.block_description_new{
+    margin-top: 30px;
+    width: 45px;
+    text-align: center;
+    margin-left: 35px;
+    font-size: 14px;
+    font-family: "Roboto";
+    color: rgb(255, 255, 255);
+    line-height: 1.929;
+    background-color: #ffa60d;
+    text-transform: uppercase;
+}
+.text{
+    list-style-type: none;
+    margin: 0;
+    margin-left: 35px;
+    padding: 0;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-family: "Roboto";
+    color: rgb(0, 0, 0);
+    line-height: 1.125;
+    padding-top: 10px;   
+    z-index: 13;     
+}
+
+.text_the_running{
+    display: inline;
+}
+
+.text_the_running--blue{
+color: #5e4fff;
+}
+
+.block_description_star{
+    margin-top: 10px;
+}
+
+.block_description_star--huarache{
+    font-size: 12px;
+    font-family: "Roboto";
+    color: rgb(0, 0, 0);
+    line-height: 2.25;
+    margin-left: 35px;
+    width: 65px;
+}
+  
+.block_description_price{
+    margin-top: 10px;
+    margin-left: 35px;
+    font-size: 22px;
+    font-family: "Roboto";
+    color: rgb(0, 0, 0);
+    line-height: 1.227;
+}
+.block_description_star{ 
+    display: inline-block;
+}
+
+.block_description_size{
+    margin-top: 30px;
+    margin-left: 35px;
+    font-size: 12px;
+    font-family: "Roboto";
+    color: rgb(0, 0, 0);
+    line-height: 2.25;    
+}
+.block_description_number{
+    display: inline;
+    margin-left:35px;
+    font-size: 14.567px;
+    font-family: "Roboto";
+    color: rgb(0, 0, 0);
+    line-height: 1.854;       
+}
+
+.block_description_close{
+    background-image: url(img/btn_close.png);
+    background-size: cover;
+    width: 16px;
+    height: 16px;
+}
+
+.block_description_number--add_border{
+    text-align: center;
+    border: 1px solid black;
+}
+
+.block_description_buttom{
+    text-align: center;
+    background-color: rgb(162, 0, 184);
+    border: 1px solid rgb(162, 0, 184);
+    margin-left: 35px;
+    margin-top: 30px;
+    width: 118px;
+    height: 30px;
+    font-size: 12px;
+    font-family: "Roboto";
+    color: rgb(255, 255, 255);
+    line-height: 2.5;
+    text-transform: uppercase;
+}
+
+.block_description_buttom--clear{
+    margin-top: 5px;
+    border: 1px solid black;
+    background-color: rgb(255, 255, 255);
+    color: black;
+   
+}
+
+.block_description_buttom:hover{
+ background-color: #323232;
+ border: 2px solid  rgb(162, 0, 184);
+ color: white;
+}
+
+.menu__item:hover{
+color: black;
+border-bottom: black;
+}
